@@ -4,7 +4,7 @@
 
  Question: What is API?
  Answer: The API client acts as a bridge between the server and the client, facilitating the exchange of data.
-*/ /*
+*/ 
 let url = "https://jsonplaceholder.typicode.com/posts/1"
 
 let fetchData = fetch(url).then((response)=>(response.json()))
@@ -12,7 +12,7 @@ let fetchData = fetch(url).then((response)=>(response.json()))
 .catch(error=>console.log(error))
 
 console.log(fetchData);
-*/
+
 //--------------------------------------------------------------------------------------------------------//
 
 /*                          Async Await
